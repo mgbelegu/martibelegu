@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Futura;
+    src: url(../fonts/FuturaPTMedium.otf);
+}
+
+body{
+    font-family: Futura;
+    letter-spacing: 1px;
+    color: white;
+    background-color: steelblue;
+}
+
+h1{
+    font-size: 72px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+div{
+    text-align: center;
+}
+
+.buttonLink{
+    text-decoration: none;
+    color: white;
+    margin: 12px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid white;
+    transition: background-color 0.2s;
+}
+
+.buttonLink:hover{
+    color:black;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+#social{
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    -ms-transform: translateX(-50%) translateY(-90%);
+    -webkit-transform: translate(-50%,-90%);
+    transform: translate(-50%,-90%);
+}
+
+.socialPic{
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+
+#container{
+    top:50%;
+    left:50%;
+    position: absolute;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
