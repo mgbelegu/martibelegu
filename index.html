@@ -20,8 +20,8 @@
     </div>
 
     <div id="clickers">
-        <a class="buttonLink" href="#contact">Contact</a>
-        <a class="buttonLink" href="#resume">Resume</a>
+        <a class="buttonLink"  id="myBtn" href="#">Contact</a>
+        <a class="buttonLink" href="resume.html">Resume</a>
     </div>
 
 </div>
@@ -30,6 +30,38 @@
     <a href="https://instagram.com/martibelegu" target="_blank"><img class="socialPic"src="images/insta.png"/></a>
     <a href="https://twitter.com/mgbelegu" target="_blank"><img class="socialPic" src="images/twitter.png"/></a>
 </div>
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <br>
+        <p>Email me at mgbelegu@gmail.com</p>
+        <p>Send me e message at +355696138654</p>
+        <br>
+    </div>
+
+</div>
+
+<script>
+    var modal = document.getElementById('myModal');
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
 
 </body>
 </html>
