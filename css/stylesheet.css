@@ -7,7 +7,10 @@ body{
     font-family: Futura;
     letter-spacing: 1px;
     color: white;
-    background-color: steelblue;
+    background-color: tomato;
+}
+a{
+    text-decoration: none;
 }
 
 h1{
@@ -103,8 +106,9 @@ div{
 .close {
     color: white;
     float: right;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
+    margin-right: 20px;
 }
 
 .close:hover,
