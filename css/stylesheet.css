@@ -50,6 +50,7 @@ div{
 #social{
     bottom: 30px;
 }
+
 .profiePic{
     margin-bottom: 25px;
 }
@@ -57,6 +58,11 @@ div{
     width: 25px;
     height: 25px;
     padding: 3px;
+    opacity: 0.5;
+}
+
+.socialPic:hover{
+    opacity: 1;
 }
 
 #container{

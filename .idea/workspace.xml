@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="-240">
               <caret line="3" column="125" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
             </state>
           </provider>
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="125" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
+            <state relative-caret-position="272">
+              <caret line="35" column="85" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+            <state relative-caret-position="351">
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,9 +50,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resume.html" />
+        <option value="$PROJECT_DIR$/css/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -76,6 +76,11 @@
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,16 +131,18 @@
       <workItem from="1557688456673" duration="8394000" />
       <workItem from="1557742828672" duration="624000" />
       <workItem from="1557743627847" duration="36000" />
+      <workItem from="1557743830335" duration="24000" />
+      <workItem from="1557755373009" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15516000" />
+    <option name="totallyTimeSpent" value="16256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -163,22 +170,22 @@
     <entry file="file://$PROJECT_DIR$/src/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="-240">
           <caret line="3" column="125" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+        <state relative-caret-position="351">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="125" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
+        <state relative-caret-position="272">
+          <caret line="35" column="85" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
         </state>
       </provider>
     </entry>
