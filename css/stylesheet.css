@@ -61,10 +61,12 @@ div{
     height: 25px;
     padding: 3px;
     opacity: 0.5;
+    transition: opacity 0.3s;
 }
 
 .socialPic:hover{
     opacity: 1;
+    transition: opacity 0.3s;
 }
 
 #container{
