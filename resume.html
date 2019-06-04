@@ -10,7 +10,7 @@
 <body>
 
 <div id="name">
-    <h3><a class="buttonLink" href="index.html">Marti Belegu</a></h3>
+    <h3><a href="index.html">Marti Belegu</a></h3>
 </div>
 
     <div id="title">
@@ -18,10 +18,11 @@
     </div>
 
 <div id="clickers">
-        <a class="buttonLink"  id="myBtn" href="#contact">Contact</a>
-        <a class="buttonLink" id="eduBtn" href="#edu">Education</a>
-        <a class="buttonLink" id="xpBtn" href="#xp">Interests</a>
-        <a class="buttonLink" id="projBtn" href="#proj">Projects</a>
+         <a class="buttonLink" href="projects.html">Projects</a>
+         <a class="buttonLink" href="education.html">Education</a>
+    <a class="buttonLink" href="interests.html">Interests</a>
+         <a class="buttonLink" href="contact.html">Contact</a>
+
 </div>
 
 <br>
@@ -36,128 +37,6 @@
     <a href="https://instagram.com/martibelegu" target="_blank"><img class="socialPic"src="images/insta.png"/></a>
     <a href="https://twitter.com/mgbelegu" target="_blank"><img class="socialPic" src="images/twitter.png"/></a>
 </div>
-
-<div id="myModal" class="modal">
-
-    <div class="modal-content">
-        <span class="close"></span>
-        <p><a href="resume.html" class="close">&times;</a></p>
-        <br>
-        <p>Email me at mgbelegu@gmail.com</p>
-        <p>Send me e message at +355696138654</p>
-        <br>
-    </div>
-
-</div>
-
-<div id="eduModal" class="modal">
-
-    <div class="modal-content">
-        <span class="close"></span>
-        <p><a href="resume.html" class="close">&times;</a></p>
-        <br>
-        <h2>1. Education: </h2>
-        <p>Epoka University</p>
-        <p>Bachelor in Business Informatics</p>
-        <h2>2. Foreign Languages:</h2>
-        <p>English</p>
-        <p>Italian</p>
-        <br>
-    </div>
-
-</div>
-
-<div id="xpModal" class="modal">
-
-    <div class="modal-content">
-        <span class="close"></span>
-        <p><a href="resume.html" class="close">&times;</a></p>
-        <br>
-        <h2>Hobbies & Interests: </h2>
-        <p>Web Development</p>
-        <p>Physical Exercise</p>
-        <p>Movies</p>
-        <p>Motivational and Self-Help Books & Podcasts</p>
-        <p>Music</p>
-        <p>Travel</p>
-        <br>
-    </div>
-
-</div>
-
-<div id="projModal" class="modal">
-
-    <div class="modal-content">
-        <span class="close"></span>
-        <p><a href="resume.html" class="close">&times;</a></p>
-        <br>
-        <p>Projects worked on: </p>
-       <p>1. <a class="buttonLink" href="https://belkuartet.al" target="_blank">Belkuartet.al - Kuarteti i Harqeve</a></p>
-        <br>
-    </div>
-
-</div>
-
-<script>
-    var modal = document.getElementById('myModal');
-    var btn = document.getElementById("myBtn");
-    var span = document.getElementsByClassName("close")[0];
-
-    btn.onclick = function() {
-        modal.style.display = "block";
-    }
-
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal || event.target == modalEdu || event.target == modalXP || event.target == modalProj) {
-            modal.style.display = "none";
-            modalEdu.style.display = "none";
-            modalXP.style.display = "none";
-            modalProj.style.display = "none";
-        }
-    }
-
-    var modalEdu = document.getElementById('eduModal');
-    var btnEdu = document.getElementById("eduBtn");
-    var spanEdu = document.getElementsByClassName("close")[0];
-
-    btnEdu.onclick = function() {
-        modalEdu.style.display = "block";
-    }
-
-    spanEdu.onclick = function() {
-        modalEdu.style.display = "none";
-    }
-
-
-    var modalXP = document.getElementById('xpModal');
-    var btnXP = document.getElementById("xpBtn");
-    var spanXP = document.getElementsByClassName("close")[0];
-
-    btnXP.onclick = function() {
-        modalXP.style.display = "block";
-    }
-
-    spanXP.onclick = function() {
-        modalXP.style.display = "none";
-    }
-
-    var modalProj = document.getElementById('projModal');
-    var btnProj = document.getElementById("projBtn");
-    var spanProj = document.getElementsByClassName("close")[0];
-
-    btnProj.onclick = function() {
-        modalProj.style.display = "block";
-    }
-
-    spanProj.onclick = function() {
-        modalProj.style.display = "none";
-    }
-
-</script>
 
 </body>
 </html>
