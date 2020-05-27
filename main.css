@@ -178,12 +178,16 @@ ul li:last-child {
     opacity: 0.85;
 }
 
+.work p {
+    opacity: 0.85;
+}
+
 
 
 /*MAIN - CAPABILITIES*/
 
 .capabilities {
-    padding: 80px 120px 0 120px;
+    padding: 10px 120px 0 120px;
 }
 
 .capabilities h2 {
