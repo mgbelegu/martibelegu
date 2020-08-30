@@ -112,7 +112,7 @@ ul li:last-child {
 }
 
 .main-photo img {
-    height: 435px;
+    width: 70vw;
 }
 
 .hire-me {
@@ -378,9 +378,6 @@ ul li:last-child {
         font-size: 16px;
     }
 
-    .main-photo img {
-        height: 330px;
-    }
 
     .main-photo h1 {
         font-size: 28px;
@@ -409,10 +406,6 @@ ul li:last-child {
 
 /*iPad*/
 @media (max-width: 800px){
-
-    .main-photo img {
-        height: 265px;
-    }
 
     .main-photo h1 {
         font-size: 28px;
@@ -455,7 +448,7 @@ ul li:last-child {
     }
 
     .footer-content .row .col:nth-child(2) {
-        padding-left: 200px;
+        padding-left: 50px;
     }
 }
 
@@ -466,10 +459,6 @@ ul li:last-child {
 
     header {
         padding: 40px 30px 0 30px;
-    }
-
-    .main-photo img {
-        height: 150px;
     }
 
     .main-photo h1 {
@@ -575,10 +564,6 @@ ul li:last-child {
 
     .social-link img {
         height: 20px;
-    }
-
-    .main-photo img {
-        height: 130px;
     }
 
     .main-photo h1 {
