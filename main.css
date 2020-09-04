@@ -273,7 +273,7 @@ ul li:last-child {
 
 .about {
     padding: 25px 120px 0 120px;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .about h2 {
@@ -308,7 +308,7 @@ ul li:last-child {
 
 .howto {
     padding: 25px 120px 75px 120px;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .howto h2 {
