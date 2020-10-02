@@ -168,8 +168,7 @@ ul li:last-child {
     font-size: 18px;
     border-bottom: 1px solid rgba(3, 86, 150, 0.1);
     opacity: 1 !important;
-    margin-block-start: 0.8em;
-    margin-block-end: 1em;
+    display: inline-block;
 }
 
 
