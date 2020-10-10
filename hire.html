@@ -9,18 +9,19 @@
     freelancer front-end developer, front end developer, front-end developer">
     <title>Marti - Front End Website Developer</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png"/>
 </head>
 <body>
     <header>
-        <a class="header-link" href="index.html"><h3>MARTI</h3></a>
+        <a class="header-link" href="index.html" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out"><h3>MARTI</h3></a>
         <nav>
-            <ul>
+            <ul data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease-in-out">
                 <li><a href="index.html">Work</a></li>
                 <li><a href="hire.html">Hire Me</a></li>
             </ul>
 
-            <ul>
+            <ul data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease-in-out">
                 <li class="social-link"><a href="https://twitter.com/mgbelegu" target="_blank"><img src="images/twitter.png" alt="social media icon"></a></li>
                 <li class="social-link"><a href="https://www.linkedin.com/in/martibelegu/" target="_blank"><img src="images/linkedin.png" alt="social media icon"></a></li>
             </ul>
@@ -28,11 +29,11 @@
     </header>
 
     <main>
-        <div class="main">
+        <div class="main" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in-out">
             <h1>Hire Marti</h1>
         </div>
 
-        <div class="about">
+        <div class="about" data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out">
             <h2>About me</h2>
             <div class="row">
                 <p>I'm a passionate front-end web developer who has built several websites for
@@ -43,7 +44,7 @@
             </div>
         </div>
 
-        <div class="whatICan">
+        <div class="whatICan" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">
             <h2>What I can do for you</h2>
             <ul>
                 <li>Develop your website</li>
@@ -53,7 +54,7 @@
             </ul>
         </div>
 
-        <div class="howto">
+        <div class="howto" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out" style="margin-bottom: 120px;">
             <h2>How to hire me</h2>
             <div class="row">
                 <p><a href="mailto: mgbelegu@gmail.com">Email me about your project.</a> Try to be as precise as possible, describe what you need
@@ -92,6 +93,10 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="main.js"></script>
 </body>
 </html>

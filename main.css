@@ -256,10 +256,6 @@ ul li:last-child {
     font-size: 14px;
 }
 
-.footer-content .row .col:nth-child(2){
-    padding-left: 450px;
-}
-
 
 /*HIRE.HTML*/
 
@@ -449,10 +445,6 @@ ul li:last-child {
     .footer-content .row {
         padding: 80px 60px 0 60px;
     }
-
-    .footer-content .row .col:nth-child(2) {
-        padding-left: 50px;
-    }
 }
 
 /*Phones*/
@@ -552,9 +544,6 @@ ul li:last-child {
 
     .footer-content .row .col {
         width: 100%;
-    }
-    .footer-content .row .col:nth-child(2) {
-        padding-left: 0px;
     }
 }
 
@@ -657,8 +646,5 @@ ul li:last-child {
 
     .footer-content .row .col {
         width: 100%;
-    }
-    .footer-content .row .col:nth-child(2) {
-        padding-left: 0px;
     }
 }

@@ -10,18 +10,19 @@
 	<meta name="google-site-verification" content="rHaEvqDH6bgL2i6z9llQwjnbRnA3ZcBYnqSVK6X5TWc" />
     <title>Marti - Front End Website Developer</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
     <header>
-        <a class="header-link" href="index.html"><h3>MARTI</h3></a>
+        <a class="header-link" href="index.html" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out"><h3>MARTI</h3></a>
         <nav>
-            <ul>
+            <ul data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease-in-out">
                 <li><a href="#work_section">Work</a></li>
                 <li><a href="hire.html">Hire Me</a></li>
             </ul>
 
-            <ul>
+            <ul data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease-in-out">
                 <li class="social-link"><a href="https://twitter.com/mgbelegu" target="_blank"><img src="images/twitter.png" alt="social media icon"></a></li>
                 <li class="social-link"><a href="https://www.linkedin.com/in/martibelegu/" target="_blank"><img src="images/linkedin.png" alt="social media icon"></a></li>
             </ul>
@@ -30,15 +31,15 @@
 
     <main>
         <div class="main-photo">
-            <img src="images/setup1.jpg" alt="Photo of me working.">
-            <h1>I'm Marti - A website developer and a digital entrepreneur.</h1>
+            <img src="images/setup1.jpg" alt="Photo of me working." data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in-out">
+            <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out">I'm Marti - A website developer and a digital entrepreneur.</h1>
         </div>
 
-        <div class="hire-me">
+        <div class="hire-me" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">
             <a href="hire.html"><mark>AVAILABLE FOR WORK.</mark> Available for website development work. Find out more →</a>
         </div>
 
-        <div class="work" id="work_section">
+        <div class="work" id="work_section" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <h2>Individual Work</h2>
             <div class="row">
                 <div class="col">
@@ -86,7 +87,7 @@
             </div>
         </div>
 
-        <div class="capabilities">
+        <div class="capabilities" data-aos="fade-up" data-aos-duration="1600" data-aos-easing="ease-in-out">
             <h2>Capabilities</h2>
             <ul>
                 <li>HTML</li>
@@ -129,6 +130,15 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        disable: function() {
+            var maxWidth = 100;
+            return window.innerWidth < maxWidth;
+        }
+    });
+  </script>
     <script src="main.js"></script>
 </body>
 </html>
