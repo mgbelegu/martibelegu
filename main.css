@@ -1,650 +1,637 @@
 @font-face {
-    font-family: SP-Bold;
-    src: url("fonts/SourceSansPro-Bold.ttf");
+  font-family: SP-Bold;
+  src: url("fonts/SourceSansPro-Bold.ttf");
 }
 
 @font-face {
-    font-family: SP-Reg;
-    src: url("fonts/SourceSansPro-Regular.ttf");
+  font-family: SP-Reg;
+  src: url("fonts/SourceSansPro-Regular.ttf");
 }
 
 @font-face {
-    font-family: SP-Light;
-    src: url("fonts/SourceSansPro-Light.ttf");
+  font-family: SP-Light;
+  src: url("fonts/SourceSansPro-Light.ttf");
 }
 
 @font-face {
-    font-family: SP-SemiBold;
-    src: url("fonts/SourceSansPro-SemiBold.ttf");
+  font-family: SP-SemiBold;
+  src: url("fonts/SourceSansPro-SemiBold.ttf");
 }
 
 @font-face {
-    font-family: UniSans-Heavy;
-    src: url("fonts/UniSansHeavy.otf");
+  font-family: UniSans-Heavy;
+  src: url("fonts/UniSansHeavy.otf");
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: SP-Reg;
-    color: #141618;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: SP-Reg;
+  color: #141618;
+  width: 100%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*NAVIGATION BAR*/
 
 header a h3 {
-    font-size: 24px;
-    color: #141618;
-    font-family: UniSans-Heavy;
-    display: inline-block;
+  font-size: 24px;
+  color: #141618;
+  font-family: UniSans-Heavy;
+  display: inline-block;
 }
 
 header .header-link {
-    display: inline-block;
-    width: 70px;
+  display: inline-block;
+  width: 70px;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    padding: 80px 120px 0 120px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 120px 0 120px;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 nav ul {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 0;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #2c3135;
-    transition: color 200ms;
+nav ul li a {
+  text-decoration: none;
+  color: #2c3135;
+  transition: color 200ms;
 }
 
-nav ul li a:hover{
-    text-decoration: none;
-    color: #035696;
-    transition: color 200ms;
+nav ul li a:hover {
+  text-decoration: none;
+  color: #035696;
+  transition: color 200ms;
 }
 
 ul li {
-    list-style-type: none;
-    padding: 0px 10px;
-    font-size: 18px;
+  list-style-type: none;
+  padding: 0px 10px;
+  font-size: 18px;
 }
 
 ul li:first-child {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 ul li:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .social-link img {
-    height: 25px;
-    opacity: 0.5;
-    transition: opacity 200ms;
+  height: 25px;
+  opacity: 0.5;
+  transition: opacity 200ms;
 }
 
 .social-link img:hover {
-    opacity: 1;
-    transition: opacity 200ms;
+  opacity: 1;
+  transition: opacity 200ms;
 }
 
 /*MAIN*/
 
 .main-photo {
-    padding: 80px 120px 0 120px;
+  padding: 80px 120px 0 120px;
 }
 
 .main-photo img {
-    width: 70vw;
+  width: 70vw;
 }
 
 .hire-me {
-    padding: 80px 120px 0 120px;
+  padding: 80px 120px 0 120px;
 }
 
-.hire-me mark{
-    background-color: #035696;
-    color: white;
-    padding: 5px 10px;
-    margin-right: 10px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: bolder;
+.hire-me mark {
+  background-color: #035696;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bolder;
 }
 
 .hire-me a {
-    background-color: rgb(241, 254, 255);
-    border: 1px solid white;    
-    color: #035696;
-    padding: 25px 30px;
-    border-radius: 4px;
-    transition: border 200ms;
+  background-color: rgb(241, 254, 255);
+  border: 1px solid white;
+  color: #035696;
+  padding: 25px 30px;
+  border-radius: 4px;
+  transition: border 200ms;
 }
 
 .hire-me a:hover {
-    border: 1px solid #035696;
-    box-shadow: 3px 3px 8px rgb(223, 223, 223);
-    transition: border 200ms;
+  border: 1px solid #035696;
+  box-shadow: 3px 3px 8px rgb(223, 223, 223);
+  transition: border 200ms;
 }
 
 /*MAIN - WORK*/
 
 .work {
-    padding: 80px 120px 0 120px;
+  padding: 80px 120px 0 120px;
 }
 
 .work h2 {
-    color: #6A696E;
-    opacity: 0.5;
-    font-weight: lighter;
-    font-size: 18px;
+  color: #6a696e;
+  opacity: 0.5;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 .work .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.work .row a{
-    font-family: SP-Reg;
-    color: rgb(3, 86, 150);
-    font-size: 18px;
-    border-bottom: 1px solid rgba(3, 86, 150, 0.1);
-    opacity: 1 !important;
-    display: inline-block;
+.work .row a {
+  font-family: SP-Reg;
+  color: rgb(3, 86, 150);
+  font-size: 18px;
+  border-bottom: 1px solid rgba(3, 86, 150, 0.1);
+  opacity: 1 !important;
+  display: inline-block;
 }
 
-
-.work .row .col{
-    margin-right: 175px;
-    max-width: 400px;
+.work .row .col {
+  margin-right: 175px;
+  max-width: 400px;
 }
 
 .work .row .col p {
-    opacity: 0.85;
+  opacity: 0.85;
 }
 
 .work p {
-    opacity: 0.85;
+  opacity: 0.85;
 }
-
 
 /*MAIN - CAPABILITIES*/
 
 .capabilities {
-    padding: 10px 120px 0 120px;
+  padding: 10px 120px 0 120px;
 }
 
 .capabilities h2 {
-    color: #6A696E;
-    opacity: 0.5;
-    font-weight: lighter;
-    font-size: 18px;
+  color: #6a696e;
+  opacity: 0.5;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 .capabilities ul li {
-    list-style-type: none;
-    padding: 0 0 5px 0;
-    opacity: 0.85;
-    font-size: 16px;
+  list-style-type: none;
+  padding: 0 0 5px 0;
+  opacity: 0.85;
+  font-size: 16px;
 }
 
 .capabilities {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
-
 
 /*FOOTER*/
 
 .footer-content {
-    background-color: #141618;
-    color: white;
-    height: 350px;
-    width: 100%;
+  background-color: #141618;
+  color: white;
+  height: 350px;
+  width: 100%;
 }
 
-.footer-content a{
-    color: rgb(92, 92, 92);
+.footer-content a {
+  color: rgb(92, 92, 92);
 }
 
 .footer-content .row {
-    display: flex;
-    flex-direction: row;
-    padding: 80px 120px 0 120px;
+  display: flex;
+  flex-direction: row;
+  padding: 80px 120px 0 120px;
 }
 
 .footer-content .row .col {
-    width: 50%;
+  width: 50%;
 }
 
 .footer-content h2 {
-    color: rgb(201, 201, 201);
-    font-size: 18px;
+  color: rgb(201, 201, 201);
+  font-size: 18px;
 }
 
 .footer-content h3 {
-    color: rgb(173, 173, 173);
-    font-family: SP-Light;
-    font-size: 18px;
+  color: rgb(173, 173, 173);
+  font-family: SP-Light;
+  font-size: 18px;
 }
 
 .footer-content ul {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
 }
 
 .footer-content p {
-    color: rgb(173, 173, 173);
-    font-size: 14px;
+  color: rgb(173, 173, 173);
+  font-size: 14px;
 }
-
 
 /*HIRE.HTML*/
 
-
 .main {
-    padding: 25px 120px 0 120px;
+  padding: 25px 120px 0 120px;
 }
 
 .main h1 {
-    font-size: 60px;
-    font-family: SP-Light;
-    color: #2C3135;
+  font-size: 60px;
+  font-family: SP-Light;
+  color: #2c3135;
 }
 
 .about {
-    padding: 25px 120px 0 120px;
-    max-width: 1000px;
+  padding: 25px 120px 0 120px;
+  max-width: 1000px;
 }
 
 .about h2 {
-    color: #6A696E;
-    opacity: 0.5;
-    font-weight: lighter;
-    font-size: 18px;
+  color: #6a696e;
+  opacity: 0.5;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 .about p {
-    font-size: 20px;
-    color: #2C3135;
+  font-size: 20px;
+  color: #2c3135;
 }
 
 .whatICan h2 {
-    color: #6A696E;
-    opacity: 0.5;
-    font-weight: lighter;
-    font-size: 18px;
+  color: #6a696e;
+  opacity: 0.5;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 .whatICan {
-    padding: 25px 120px 0 120px;
+  padding: 25px 120px 0 120px;
 }
 
 .whatICan ul li {
-    list-style-type: disc;
-    padding: 0 0 5px 0;
-    font-size: 20px;
-    color: #2C3135;
+  list-style-type: disc;
+  padding: 0 0 5px 0;
+  font-size: 20px;
+  color: #2c3135;
 }
 
 .howto {
-    padding: 25px 120px 75px 120px;
-    max-width: 1000px;
+  padding: 25px 120px 75px 120px;
+  max-width: 1000px;
 }
 
 .howto h2 {
-    color: #6A696E;
-    opacity: 0.5;
-    font-weight: lighter;
-    font-size: 18px;
+  color: #6a696e;
+  opacity: 0.5;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 .howto p {
-    font-size: 20px;
-    color: #2C3135;
-    background-color: rgb(241, 254, 255);
-    border: 1px solid white;
-    padding: 30px 25px;
-    border-radius: 4px;
-    transition: border 200ms;
+  font-size: 20px;
+  color: #2c3135;
+  background-color: rgb(241, 254, 255);
+  border: 1px solid white;
+  padding: 30px 25px;
+  border-radius: 4px;
+  transition: border 200ms;
 }
 
 .howto a {
-    color: #035696;
-    font-weight: bold;
+  color: #035696;
+  font-weight: bold;
 }
 
 /*Responsive Design*/
 
 /*iPad Pro*/
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
+  header {
+    padding: 80px 60px 0 60px;
+  }
 
-    header {
-        padding: 80px 60px 0 60px;
-    }
+  /*Hire me page*/
+  .main {
+    padding: 25px 60px 0 60px;
+  }
 
-    /*Hire me page*/
-    .main {
-        padding: 25px 60px 0 60px;
-    }
+  .about {
+    max-width: 600px;
+    padding: 25px 60px 0 60px;
+  }
 
-    .about {
-        max-width: 600px;
-        padding: 25px 60px 0 60px;
-    }
+  .whatICan {
+    max-width: 600px;
+    padding: 25px 60px 0 60px;
+  }
 
-    .whatICan {
-        max-width: 600px;
-        padding: 25px 60px 0 60px;
-    }
+  .howto {
+    max-width: 600px;
+    padding: 25px 60px 0 60px;
+  }
 
-    .howto {
-        max-width: 600px;
-        padding: 25px 60px 0 60px;
-    }
+  .main p {
+    font-size: 16px;
+  }
 
-    .main p{
-        font-size: 16px;
-    }
+  .about p {
+    font-size: 16px;
+  }
 
-    .about p{
-        font-size: 16px;
-    }
+  .whatICan ul li {
+    font-size: 16px;
+  }
 
-    .whatICan ul li{
-        font-size: 16px;
-    }
+  .howto p {
+    font-size: 16px;
+  }
 
-    .howto p{
-        font-size: 16px;
-    }
+  .main-photo h1 {
+    font-size: 28px;
+  }
 
+  .main-photo {
+    padding: 80px 60px 0 60px;
+  }
 
-    .main-photo h1 {
-        font-size: 28px;
-    }
+  .hire-me {
+    padding: 80px 60px 0 60px;
+  }
 
-    .main-photo {
-        padding: 80px 60px 0 60px;
-    }
+  .work {
+    padding: 80px 60px 0 60px;
+  }
 
-    .hire-me {
-        padding: 80px 60px 0 60px;
-    }
+  .capabilities {
+    padding: 80px 60px 0 60px;
+  }
 
-    .work {
-        padding: 80px 60px 0 60px;
-    }
-
-    .capabilities {
-        padding: 80px 60px 0 60px;
-    }
-
-    .footer-content .row {
-        padding: 80px 60px 0 60px;
-    }
+  .footer-content .row {
+    padding: 80px 60px 0 60px;
+  }
 }
 
 /*iPad*/
-@media (max-width: 800px){
+@media (max-width: 800px) {
+  .main-photo h1 {
+    font-size: 28px;
+  }
 
-    .main-photo h1 {
-        font-size: 28px;
-    }
+  .main-photo {
+    padding: 80px 60px 0 60px;
+  }
 
-    .main-photo {
-        padding: 80px 60px 0 60px;
-    }
+  .hire-me {
+    padding: 80px 60px 0 60px;
+  }
+  .hire-me a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 15px 20px;
+  }
 
-    .hire-me {
-        padding: 80px 60px 0 60px;
-    }
-    .hire-me a{
-        display: inline-block;
-        font-size: 16px;
-        line-height: 28px;
-        padding: 15px 20px;
-    }
+  .work {
+    padding: 80px 60px 0 60px;
+  }
 
+  .work .row .col {
+    margin-right: 0px;
+    max-width: 250px;
+  }
 
-    .work {
-        padding: 80px 60px 0 60px;
-    }
+  .work .row .col:nth-child(2) {
+    margin-left: 100px;
+  }
 
-    .work .row .col {
-        margin-right: 0px;
-        max-width: 250px;
-    }
+  .capabilities {
+    padding: 80px 60px 0 60px;
+  }
 
-    .work .row .col:nth-child(2) {
-        margin-left: 100px;
-    }
-
-    .capabilities {
-        padding: 80px 60px 0 60px;
-    }
-
-    .footer-content .row {
-        padding: 80px 60px 0 60px;
-    }
+  .footer-content .row {
+    padding: 80px 60px 0 60px;
+  }
 }
 
 /*Phones*/
 
 /*Plus sized*/
-@media (max-width: 415px){
+@media (max-width: 415px) {
+  header {
+    padding: 40px 30px 0 30px;
+  }
 
-    header {
-        padding: 40px 30px 0 30px;
-    }
+  .main-photo h1 {
+    font-size: 26px;
+  }
 
-    .main-photo h1 {
-        font-size: 26px;
-    }
+  .main-photo {
+    padding: 40px 30px 0 30px;
+  }
 
-    .main-photo {
-        padding: 40px 30px 0 30px;
-    }
+  /*Hire me page*/
 
-    /*Hire me page*/
+  .main {
+    padding: 25px 30px 0 30px;
+  }
 
-    .main {
-        padding: 25px 30px 0 30px;
-    }
+  .about {
+    max-width: 345px;
+    padding: 25px 30px 0 30px;
+  }
 
-    .about {
-        max-width: 345px;
-        padding: 25px 30px 0 30px;
-    }
+  .whatICan {
+    max-width: 345px;
+    padding: 25px 30px 0 30px;
+  }
 
-    .whatICan {
-        max-width: 345px;
-        padding: 25px 30px 0 30px;
-    }
+  .howto {
+    max-width: 345px;
+    padding: 25px 30px 0 30px;
+  }
 
-    .howto {
-        max-width: 345px;
-        padding: 25px 30px 0 30px;
-    }
+  .main p {
+    font-size: 16px;
+  }
 
-    .main p{
-        font-size: 16px;
-    }
+  .about p {
+    font-size: 16px;
+  }
 
-    .about p{
-        font-size: 16px;
-    }
+  .whatICan ul li {
+    font-size: 16px;
+  }
 
-    .whatICan ul li{
-        font-size: 16px;
-    }
+  .howto p {
+    font-size: 16px;
+  }
 
-    .howto p{
-        font-size: 16px;
-    }
+  .hire-me {
+    padding: 40px 30px 0 30px;
+  }
+  .hire-me a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 15px 20px;
+  }
 
-    .hire-me {
-        padding: 40px 30px 0 30px;
-    }
-    .hire-me a{
-        display: inline-block;
-        font-size: 16px;
-        line-height: 28px;
-        padding: 15px 20px;
-    }
+  .work {
+    padding: 40px 30px 0 30px;
+  }
 
+  .work .row {
+    flex-direction: column;
+  }
 
-    .work {
-        padding: 40px 30px 0 30px;
-    }
+  .work .row .col {
+    margin-right: 0px;
+  }
 
-    .work .row {
-        flex-direction: column;
-    }
+  .work .row .col:nth-child(2) {
+    margin-left: 0px;
+  }
 
-    .work .row .col {
-        margin-right: 0px;
-    }
+  .capabilities {
+    padding: 40px 30px 0 30px;
+  }
 
-    .work .row .col:nth-child(2) {
-        margin-left: 0px;
-    }
+  .footer-content {
+    height: 450px;
+  }
 
-    .capabilities {
-        padding: 40px 30px 0 30px;
-    }
+  .footer-content .row {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 0 30px;
+  }
 
-    .footer-content {
-        height: 450px;
-    }
-
-    .footer-content .row {
-        display: flex;
-        flex-direction: column;
-        padding: 40px 30px 0 30px;
-    }
-
-    .footer-content .row .col {
-        width: 100%;
-    }
+  .footer-content .row .col {
+    width: 100%;
+  }
 }
 
 /*Small sized*/
-@media (max-width: 375px){
+@media (max-width: 375px) {
+  header {
+    padding: 40px 30px 0 30px;
+  }
 
-    header {
-        padding: 40px 30px 0 30px;
-    }
+  .social-link img {
+    height: 20px;
+  }
 
-    .social-link img {
-        height: 20px;
-    }
+  .main-photo h1 {
+    font-size: 26px;
+  }
 
-    .main-photo h1 {
-        font-size: 26px;
-    }
+  .main-photo {
+    padding: 40px 30px 0 30px;
+  }
 
-    .main-photo {
-        padding: 40px 30px 0 30px;
-    }
+  /*Hire me page*/
 
-    /*Hire me page*/
+  .main {
+    padding: 25px 30px 0 30px;
+  }
 
-    .main {
-        padding: 25px 30px 0 30px;
-    }
+  .about {
+    max-width: 315px;
+    padding: 25px 30px 0 30px;
+  }
 
-    .about {
-        max-width: 315px;
-        padding: 25px 30px 0 30px;
-    }
+  .whatICan {
+    max-width: 315px;
+    padding: 25px 30px 0 30px;
+  }
 
-    .whatICan {
-        max-width: 315px;
-        padding: 25px 30px 0 30px;
-    }
+  .howto {
+    max-width: 315px;
+    padding: 25px 30px 0 30px;
+  }
 
-    .howto {
-        max-width: 315px;
-        padding: 25px 30px 0 30px;
-    }
+  .main p {
+    font-size: 16px;
+  }
 
-    .main p{
-        font-size: 16px;
-    }
+  .about p {
+    font-size: 16px;
+  }
 
-    .about p{
-        font-size: 16px;
-    }
+  .whatICan ul li {
+    font-size: 16px;
+  }
 
-    .whatICan ul li{
-        font-size: 16px;
-    }
+  .howto p {
+    font-size: 16px;
+  }
 
-    .howto p{
-        font-size: 16px;
-    }
+  .hire-me {
+    padding: 40px 30px 0 30px;
+  }
+  .hire-me a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 15px 20px;
+  }
 
-    .hire-me {
-        padding: 40px 30px 0 30px;
-    }
-    .hire-me a{
-        display: inline-block;
-        font-size: 16px;
-        line-height: 28px;
-        padding: 15px 20px;
-    }
+  .work {
+    padding: 40px 30px 0 30px;
+  }
 
+  .work .row {
+    flex-direction: column;
+  }
 
-    .work {
-        padding: 40px 30px 0 30px;
-    }
+  .work .row .col {
+    margin-right: 0px;
+  }
 
-    .work .row {
-        flex-direction: column;
-    }
+  .work .row .col:nth-child(2) {
+    margin-left: 0px;
+  }
 
-    .work .row .col {
-        margin-right: 0px;
-    }
+  .capabilities {
+    padding: 40px 30px 0 30px;
+  }
 
-    .work .row .col:nth-child(2) {
-        margin-left: 0px;
-    }
+  .footer-content {
+    height: 450px;
+  }
 
-    .capabilities {
-        padding: 40px 30px 0 30px;
-    }
+  .footer-content .row {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 0 30px;
+  }
 
-    .footer-content {
-        height: 450px;
-    }
-
-    .footer-content .row {
-        display: flex;
-        flex-direction: column;
-        padding: 40px 30px 0 30px;
-    }
-
-    .footer-content .row .col {
-        width: 100%;
-    }
+  .footer-content .row .col {
+    width: 100%;
+  }
 }
