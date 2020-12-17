@@ -35,6 +35,10 @@ a {
   text-decoration: none;
 }
 
+.linkinP {
+  font-size: 16px !important;
+}
+
 /*NAVIGATION BAR*/
 
 header a h3 {
