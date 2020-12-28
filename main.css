@@ -115,6 +115,11 @@ ul li:last-child {
   padding: 80px 120px 0 120px;
 }
 
+.main-photo h1 {
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
 .main-photo img {
   width: 70vw;
 }
