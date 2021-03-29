@@ -181,8 +181,9 @@ ul li:last-child {
 }
 
 .work .row .col {
-  margin-right: 175px;
-  max-width: 400px;
+  margin-right: 75px;
+  max-width: 500px;
+  transition: all 200ms ease-in-out;
 }
 
 .work .row .col p {
@@ -337,6 +338,20 @@ ul li:last-child {
 }
 
 /*Responsive Design*/
+
+/*Content spacing*/
+
+@media (max-width: 1410px) {
+  .work .row .col {
+    max-width: 400px !important;
+  }
+}
+
+@media (max-width: 1230px) {
+  .work .row .col {
+    max-width: 300px !important;
+  }
+}
 
 /*iPad Pro*/
 @media (max-width: 1024px) {
