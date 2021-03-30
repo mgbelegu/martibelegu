@@ -651,7 +651,7 @@ ul li:last-child {
 
   .footer-content .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 40px 30px 0 30px;
   }
 
