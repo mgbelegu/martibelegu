@@ -26,7 +26,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: InterRegular;
+  font-family: SP-Reg;
   color: #141618;
   width: 100%;
 }
@@ -44,7 +44,7 @@ a {
 header a h3 {
   font-size: 24px;
   color: #141618;
-  font-family: InterBlack;
+  font-family: UniSans-Heavy;
   display: inline-block;
 }
 
@@ -172,7 +172,7 @@ ul li:last-child {
 }
 
 .work .row a {
-  font-family: InterRegular;
+  font-family: SP-Reg;
   color: rgb(3, 86, 150);
   font-size: 18px;
   border-bottom: 1px solid rgba(3, 86, 150, 0.1);
@@ -248,7 +248,7 @@ ul li:last-child {
 
 .footer-content h3 {
   color: rgb(173, 173, 173);
-  font-family: InterLight;
+  font-family: SP-Light;
   font-size: 18px;
 }
 
@@ -271,7 +271,7 @@ ul li:last-child {
 
 .main h1 {
   font-size: 60px;
-  font-family: InterLight;
+  font-family: SP-Light;
   color: #2c3135;
 }
 
