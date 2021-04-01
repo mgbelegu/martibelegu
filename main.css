@@ -1,26 +1,26 @@
 @font-face {
-  font-family: InterBold;
-  src: url("fonts/Inter-Bold.ttf");
+  font-family: SP-Bold;
+  src: url("fonts/SourceSansPro-Bold.ttf");
 }
 
 @font-face {
-  font-family: InterRegular;
-  src: url("fonts/Inter-Regular.ttf");
+  font-family: SP-Reg;
+  src: url("fonts/SourceSansPro-Regular.ttf");
 }
 
 @font-face {
-  font-family: InterLight;
-  src: url("fonts/Inter-Light.ttf");
+  font-family: SP-Light;
+  src: url("fonts/SourceSansPro-Light.ttf");
 }
 
 @font-face {
-  font-family: InterSemiBold;
-  src: url("fonts/Inter-SemiBold.ttf");
+  font-family: SP-SemiBold;
+  src: url("fonts/SourceSansPro-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: InterBlack;
-  src: url("fonts/Inter-Black.ttf");
+  font-family: UniSans-Heavy;
+  src: url("fonts/UniSansHeavy.otf");
 }
 
 body {
